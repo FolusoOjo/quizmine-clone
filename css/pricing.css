@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(193, 193, 193);
+}
+.switch{
+    display: inline-block;
+    height: 23px;
+    position: relative;
+    width: 40px;
+}
+.sideg{
+    background-color: rgb(237, 246, 253);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin: 0 0 20px 30px;
+    height: 100vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+#mini{
+    width: 52%;
+    height: 60px;
+    padding-top: 30px;
+}
+.back{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 60px;
+}
+#input{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 20px;
+}
+input{
+    /* width: 37%; */
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 2px transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: text;
+    align-items: center;
+    color: rgb(0, 171, 223);
+}
+#forgot{
+    margin-left: 180px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+#login{
+    padding: 17px 100px;
+    color: white;
+    background-color: rgb(0, 171, 223);
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: white;
+    margin: 5px 50px 70px 70px;
+}
